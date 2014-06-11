@@ -1,5 +1,6 @@
 class Post < ActiveRecord::Base
 
+  # TODO: Look into not even using ActiveRecord
   def self.default_scope
     raise "Must use .secure_* methods"
   end
